@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/papel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    background: linear-gradient(to right, rgb(118, 82, 35), rgb(116, 53, 53));
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container {
+    margin: 5px;
+}
+
+.col {
+    text-align: center;
+    background-image: url(/imagenes/papel.jpg);
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.card {
+    height: 300px;
+}
+
+.card-header {
+    font-size: 50px;
+    background-color: rgb(51, 9, 6);
+    color: aliceblue;
+    text-align: center;
+}
+
+.table-responsive {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.table-primary {
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 20px;
+    font-size: large;
+    border: 1px solid black;
+}
+
+thead tr {
+    height: 32.5px;
+}
+
+tbody tr {
+    height: 100px;
+}
+
+tbody tr td {
+    border-top: 0.1px solid rgb(26, 26, 26);
+}
+
+tbody tr i {
+    font-size: 3rem;
+    color: rgb(51, 9, 6);
+}
+
+.container-footer {
+    background: rgb(51, 9, 6);
+    color: aliceblue;
+    padding: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer .row {
+    padding: 10px;
+}
+
+footer .row .correo i {
+    padding-right: 18px;
+    font-size: 25px;
+}
